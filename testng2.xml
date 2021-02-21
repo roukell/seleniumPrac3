@@ -15,12 +15,6 @@
                     <include name="deleteTwitter"/>
                 </methods>
             </class>
-            <class name="org.example.SeleniumTest">
-                <methods>
-                    <include name="browserAutomation"/>
-                    <include name="elementsUI"/>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>
