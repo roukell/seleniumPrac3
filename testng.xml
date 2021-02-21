@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?> <!--this file is a testNG demo-->
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava">
+<suite name="Suite">
+    <test name="Test">
         <classes>
-            <class name="org.example.AppiumTest">
-                <methods>
-                    <include name="NativeAppAndroid"/>
-                    <include name="iOS"/>
-                </methods>
-            </class>
-            <class name="org.example.RESTAPItest">
-                <methods>
-                    <include name="postJira"/>
-                    <include name="deleteTwitter"/>
-                </methods>
-            </class>
-            <class name="org.example.SeleniumTest">
-                <methods>
-                    <include name="browserAutomation"/>
-                    <include name="elementsUI"/>
-                </methods>
-            </class>
+            <class name="org.example.AppiumTest" />
+            <class name="org.example.RESTAPItest" />
+            <class name="org.example.SeleniumTest" />
         </classes>
     </test>
 </suite>

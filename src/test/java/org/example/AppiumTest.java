@@ -1,5 +1,6 @@
 package org.example;
-import org.junit.Test;
+//import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class AppiumTest {
     @Test
