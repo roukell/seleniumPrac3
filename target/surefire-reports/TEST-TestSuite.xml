@@ -1,74 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.24" tests="4" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="TestSuite" time="0.004" errors="0" skipped="0">
   <properties>
-    <property name="java.specification.version" value="15"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/test-classes:/Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/classes:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yi-linglo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yi-linglo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yi-linglo/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yi-linglo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yi-linglo/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yi-linglo/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yi-linglo/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yi-linglo/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yi-linglo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yi-linglo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yi-linglo/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/yi-linglo/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/yi-linglo/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yi-linglo/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yi-linglo/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yi-linglo/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yi-linglo/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yi-linglo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yi-linglo/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/yi-linglo/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yi-linglo/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yi-linglo/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yi-linglo/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yi-linglo/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yi-linglo/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yi-linglo/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yi-linglo/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/yi-linglo/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/yi-linglo/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/yi-linglo/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/yi-linglo/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/yi-linglo/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/yi-linglo/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/yi-linglo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/yi-linglo/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/yi-linglo/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/yi-linglo/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/yi-linglo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/yi-linglo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
-    <property name="user.timezone" value="Australia/Sydney"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="15"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="AU"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/surefire/surefirebooter13308458732881139368.jar /Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/surefire 2021-02-21T18-18-09_628-jvmRun1 surefire9113582707194987856tmp surefire_01430670777989793600tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/nm/t9p8n5gj0b77cblgr08g3mhr0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yi-linglo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/apache-maven-3.6.3/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/test-classes:/Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/classes:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/yi-linglo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/yi-linglo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/yi-linglo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/yi-linglo/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/yi-linglo/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/yi-linglo/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/yi-linglo/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/yi-linglo/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/yi-linglo/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/yi-linglo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/yi-linglo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/yi-linglo/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/yi-linglo/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/yi-linglo/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/yi-linglo/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/yi-linglo/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/yi-linglo/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/yi-linglo/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yi-linglo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yi-linglo/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/yi-linglo/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yi-linglo/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yi-linglo/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/yi-linglo/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/yi-linglo/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/yi-linglo/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/yi-linglo/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/yi-linglo/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/yi-linglo/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/yi-linglo/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/yi-linglo/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/yi-linglo/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/yi-linglo/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/yi-linglo/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/yi-linglo/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/yi-linglo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/yi-linglo/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/yi-linglo/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/yi-linglo/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/yi-linglo/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/yi-linglo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/yi-linglo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="11.2"/>
+    <property name="library.jansi.path" value="/Applications/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/yi-linglo"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="yi-linglo"/>
+    <property name="java.class.path" value="/Applications/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-01-19"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava/target/surefire/surefirebooter13308458732881139368.jar"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="15.0.2+7"/>
-    <property name="user.name" value="yi-linglo"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="11.2"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Corretto-15.0.2.7.1"/>
-    <property name="localRepository" value="/Users/yi-linglo/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-jdk/issues/"/>
-    <property name="java.io.tmpdir" value="/var/folders/nm/t9p8n5gj0b77cblgr08g3mhr0000gn/T/"/>
-    <property name="java.version" value="15.0.2"/>
-    <property name="user.dir" value="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.library.path" value="/Users/yi-linglo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="maven.home" value="/Applications/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-jdk/issues/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-15.0.2.7.1"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="59.0"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="NativeAppAndroid" classname="org.example.AppiumTest" time="0.003">
-    <system-out><![CDATA[native
-]]></system-out>
-  </testcase>
-  <testcase name="iOS" classname="org.example.AppiumTest" time="0">
-    <system-out><![CDATA[ios
-]]></system-out>
-  </testcase>
-  <testcase name="postJira" classname="org.example.RESTAPItest" time="0">
-    <system-out><![CDATA[jira
-]]></system-out>
-  </testcase>
-  <testcase name="deleteTwitter" classname="org.example.RESTAPItest" time="0.001">
-    <system-out><![CDATA[twit
-]]></system-out>
-  </testcase>
+  <testcase classname="org.example.AppiumTest" name="NativeAppAndroid" time="0.003"/>
+  <testcase classname="org.example.AppiumTest" name="iOS" time="0"/>
+  <testcase classname="org.example.SeleniumTest" name="browserAutomation" time="0"/>
+  <testcase classname="org.example.SeleniumTest" name="elementsUI" time="0.001"/>
 </testsuite>

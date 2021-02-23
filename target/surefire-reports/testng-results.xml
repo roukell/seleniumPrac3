@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-21T07:18:10Z" name="All Test Suite" finished-at="2021-02-21T07:18:10Z" duration-ms="16">
+  <suite started-at="2021-02-23T10:59:02Z" name="Command line suite" finished-at="2021-02-23T10:59:02Z" duration-ms="18">
     <groups>
     </groups>
-    <test started-at="2021-02-21T07:18:10Z" name="/Users/yi-linglo/IDEAproject/mavenJava/mavenJava" finished-at="2021-02-21T07:18:10Z" duration-ms="16">
+    <test started-at="2021-02-23T10:59:02Z" name="Command line test" finished-at="2021-02-23T10:59:02Z" duration-ms="18">
       <class name="org.example.AppiumTest">
-        <test-method signature="NativeAppAndroid()[pri:0, instance:org.example.AppiumTest@59717824]" started-at="2021-02-21T07:18:10Z" name="NativeAppAndroid" finished-at="2021-02-21T07:18:10Z" duration-ms="4" status="PASS">
+        <test-method signature="NativeAppAndroid()[pri:0, instance:org.example.AppiumTest@27808f31]" started-at="2021-02-23T10:59:02Z" name="NativeAppAndroid" finished-at="2021-02-23T10:59:02Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NativeAppAndroid -->
-        <test-method signature="iOS()[pri:0, instance:org.example.AppiumTest@59717824]" started-at="2021-02-21T07:18:10Z" name="iOS" finished-at="2021-02-21T07:18:10Z" duration-ms="0" status="PASS">
+        <test-method signature="iOS()[pri:0, instance:org.example.AppiumTest@27808f31]" started-at="2021-02-23T10:59:02Z" name="iOS" finished-at="2021-02-23T10:59:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iOS -->
       </class> <!-- org.example.AppiumTest -->
-      <class name="org.example.RESTAPItest">
-        <test-method signature="postJira()[pri:0, instance:org.example.RESTAPItest@146044d7]" started-at="2021-02-21T07:18:10Z" name="postJira" finished-at="2021-02-21T07:18:10Z" duration-ms="0" status="PASS">
+      <class name="org.example.SeleniumTest">
+        <test-method signature="elementsUI()[pri:0, instance:org.example.SeleniumTest@436e852b]" started-at="2021-02-23T10:59:02Z" name="elementsUI" finished-at="2021-02-23T10:59:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postJira -->
-        <test-method signature="deleteTwitter()[pri:0, instance:org.example.RESTAPItest@146044d7]" started-at="2021-02-21T07:18:10Z" name="deleteTwitter" finished-at="2021-02-21T07:18:10Z" duration-ms="0" status="PASS">
+        </test-method> <!-- elementsUI -->
+        <test-method signature="browserAutomation()[pri:0, instance:org.example.SeleniumTest@436e852b]" started-at="2021-02-23T10:59:02Z" name="browserAutomation" finished-at="2021-02-23T10:59:02Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteTwitter -->
-      </class> <!-- org.example.RESTAPItest -->
-    </test> <!-- /Users/yi-linglo/IDEAproject/mavenJava/mavenJava -->
-  </suite> <!-- All Test Suite -->
+        </test-method> <!-- browserAutomation -->
+      </class> <!-- org.example.SeleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>
