@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-23T10:59:02Z" name="Command line suite" finished-at="2021-02-23T10:59:02Z" duration-ms="18">
+  <suite started-at="2021-02-25T23:04:45Z" name="PDF Test Suite" finished-at="2021-02-25T23:04:55Z" duration-ms="10217">
     <groups>
     </groups>
-    <test started-at="2021-02-23T10:59:02Z" name="Command line test" finished-at="2021-02-23T10:59:02Z" duration-ms="18">
-      <class name="org.example.AppiumTest">
-        <test-method signature="NativeAppAndroid()[pri:0, instance:org.example.AppiumTest@27808f31]" started-at="2021-02-23T10:59:02Z" name="NativeAppAndroid" finished-at="2021-02-23T10:59:02Z" duration-ms="3" status="PASS">
+    <test started-at="2021-02-25T23:04:45Z" name="verify pdf content" finished-at="2021-02-25T23:04:55Z" duration-ms="10217">
+      <class name="PDFautomation.PDFautomation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PDFautomation.PDFautomation@491666ad]" started-at="2021-02-25T23:04:45Z" name="setUp" finished-at="2021-02-25T23:04:47Z" duration-ms="2254" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NativeAppAndroid -->
-        <test-method signature="iOS()[pri:0, instance:org.example.AppiumTest@27808f31]" started-at="2021-02-23T10:59:02Z" name="iOS" finished-at="2021-02-23T10:59:02Z" duration-ms="0" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContentInPDF()[pri:0, instance:PDFautomation.PDFautomation@491666ad]" started-at="2021-02-25T23:04:47Z" name="verifyContentInPDF" finished-at="2021-02-25T23:04:55Z" duration-ms="7866" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iOS -->
-      </class> <!-- org.example.AppiumTest -->
-      <class name="org.example.SeleniumTest">
-        <test-method signature="elementsUI()[pri:0, instance:org.example.SeleniumTest@436e852b]" started-at="2021-02-23T10:59:02Z" name="elementsUI" finished-at="2021-02-23T10:59:02Z" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyContentInPDF -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PDFautomation.PDFautomation@491666ad]" started-at="2021-02-25T23:04:55Z" name="tearDown" finished-at="2021-02-25T23:04:55Z" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elementsUI -->
-        <test-method signature="browserAutomation()[pri:0, instance:org.example.SeleniumTest@436e852b]" started-at="2021-02-23T10:59:02Z" name="browserAutomation" finished-at="2021-02-23T10:59:02Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserAutomation -->
-      </class> <!-- org.example.SeleniumTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- PDFautomation.PDFautomation -->
+    </test> <!-- verify pdf content -->
+  </suite> <!-- PDF Test Suite -->
 </testng-results>
